@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atlas Flooring | Toronto Flooring Experts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img scr="img/logo 1.png" class="logo 1" alt="Atlas Flooring">
+    <nav>
+        <a href="#services" data-en="Services" data-es="Servicios">Services</a>
+        <a href="#gallery" data-en="Gallery" data-es="Galería">Gallery</a>
+        <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+        <button onclick="changeLang('en')">EN</button>
+        <button onclick="changeLang('es')">ES</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1 data-en="Professional Flooring Installation"
+        data-es="Instalación Profesional de Pisos"> 
+        Professional Flooring Installation 
+    </h1>
+    <p data-en="Serving Toronto & GTA with quality and precision"
+        data-es="Sirviendo Toronto y GTA con calidad y precision">
+            Serving Toronto & GTA with quality and precision 
+        </p>
+    <a href="#contact" class="btn"
+        data-en="Request a Free Quote"
+        data-es="Solicita una Cotización Gratis">
+        Request a Free Quote
+    </a>
+</section>
+
+<section id="services" class="section">
+    <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+    <div class="cards">
+        <div class="card">Hardwood Flooring</div>
+        <div class="card">Laminate Flooring</div>
+        <div class="card">Vinyl Flooring</div>
+        <div class="card">Tile Flooring</div>
+    </div>
+</section>
+
+<section id="gallery" class="section gray">
+    <h2 data-en="Our Work" data-es="Nuestros trabajos">Our Work</h2>
+    <div class="gallery">
+        <img scr="img/work1.jpg">
+        <img scr="img/work2.jpg">
+        <img scr="img/work3.jpg">
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2 data-en="Contact Us" data-es="Contáctanos">Contact Us</h2>
+    <p>Toronto, Ontario, Canada</p>
+
+    <form>
+        <input type="text" placeholder="Name / Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message / Mensaje"></textarea>
+        <button type="submit"
+            data-en="Send Message"
+            data-es="Enviar Mensaje">
+            Send Message 
+        </button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Atlas Flooring | Toronto, ON</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
